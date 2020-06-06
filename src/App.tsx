@@ -1,20 +1,20 @@
 import React, { FC } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
-import Top from './pages/Top'
-import Search from './pages/Search'
-import Watch from './pages/Watch'
+import Top from './pages/Top';
+import Search from './pages/Search';
+import Watch from './pages/Watch';
 
-const App: FC = () =>  {
+const App: FC = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path='/' component={Top}/>
-        <Route exact path='/search' component={Search}/>
-        <Route exact path='/watch' component={Watch}/>
+        <Route exact path="/" component={Top} />
+        <Route exact path="/search" component={Search} />
+        <Route exact path="/watch" component={Watch} />
       </Switch>
     </Router>
   );
-}
+};
 
 export default App;

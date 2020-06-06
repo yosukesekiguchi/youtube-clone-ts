@@ -1,11 +1,12 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
+import Layout from '../components/Layout';
 
 const Watch: FC = () => {
   return (
-    <div>
-      Watch
-    </div>
-  )
-}
+    <Layout>
+      <div>Watch</div>
+    </Layout>
+  );
+};
 
-export default Watch
+export default Watch;

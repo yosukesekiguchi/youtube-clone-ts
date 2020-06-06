@@ -1,11 +1,12 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
+import Layout from '../components/Layout';
 
 const Top: FC = () => {
   return (
-    <div>
-      Top
-    </div>
-  )
-}
+    <Layout>
+      <div>Top</div>
+    </Layout>
+  );
+};
 
-export default Top
+export default Top;

@@ -1,11 +1,12 @@
-import React, { FC } from 'react'
+import React, { FC } from 'react';
+import Layout from '../components/Layout';
 
 const Search: FC = () => {
   return (
-    <div>
-      Search
-    </div>
-  )
-}
+    <Layout>
+      <div>Search</div>
+    </Layout>
+  );
+};
 
-export default Search
+export default Search;
